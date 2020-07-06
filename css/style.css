@@ -1,7 +1,55 @@
 body, html {
     margin: 0;
     height: 100%;
-    
+    background-color: #dfebf7;
+}
+
+* {
+   transition: all 0.4s;
+}
+
+/* ************* BUTTONS **************** */
+.button {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+	border-radius: 5px;
+}
+
+#error-toggle, #error-btn{
+  background-color:#B8308C;
+  border: 3px solid #B8308C;
+}
+
+#success-toggle, #success-btn{
+  background-color:#47CF73;
+  border: 3px solid #47CF73;
+}
+
+#success-toggle:hover, #success-btn:hover{
+  border: 3px solid #47CF73;
+  color: #47CF73;
+  background: none;
+
+}
+#error-toggle:hover, #error-btn:hover{
+  border: 3px solid #B8308C;
+  color: #B8308C;
+  background: none;
+
+}
+/* ************* BUTTONS **************** */
+
+.container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -12,11 +60,7 @@ body, html {
 
 
 
-
-
-
-
-/* *********************** MOBILE ****************************** */
+/* ************* MOBILE **************** */
 @media screen and (max-width: 600px) {
 
 
