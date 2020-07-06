@@ -9,7 +9,6 @@ var overlay = document.getElementById('overlay');
 
 
 
-
 success_toggle.addEventListener('click', function(){
   overlay.style.display = 'flex';
 
